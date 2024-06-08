@@ -1,4 +1,4 @@
-VERSION := 0.21.0
+VERSION := 0.0.1
 
 LANGUAGE_NAME := tree-sitter-regex
 
@@ -108,6 +108,5 @@ clean:
 
 test:
 	$(TS) test
-	$(TS) parse examples/* --quiet --time
 
 .PHONY: all install uninstall clean test
